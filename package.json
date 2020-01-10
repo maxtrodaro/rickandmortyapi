@@ -1,0 +1,39 @@
+{
+  "name": "leveros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp",
+    "scss": "sass --watch src/scss/index.scss:src/css/index.css",
+    "start": "concurrently \"npm run gulp server\" \"npm run scss\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxtrodaro/rickandmortyapi.git"
+  },
+  "author": "Eduardo Godoy",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-clean": "^0.3.1",
+    "gulp-csslint": "^0.2.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-jshint": "^1.11.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^1.4.1",
+    "gulp-usemin": "^0.3.14",
+    "jshint-stylish": "^2.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/maxtrodaro/rickandmortyapi/issues"
+  },
+  "dependencies": {
+    "concurrently": "^5.0.1",
+    "node-gyp": "^5.0.7",
+    "node-sass": "^4.13.0"
+  }
+}

@@ -1,0 +1,40 @@
+@import 'reset/reset';
+@import 'variaveis/variaveis';
+
+body {
+  overflow-x: hidden;
+  padding: 2%;
+  background: $cor-fundo;
+}
+
+.e-content__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &__item{
+    margin: 1%;
+    background: $cor-branco;
+    max-width: 280px;
+    border-radius: 5px;
+    &__img{
+      width: 100%;
+      height: auto;
+      border-radius: 5px 5px 0px 0px;
+    }
+    &__info{
+      padding: 10px 5px 30px 10px;
+      &__name{
+        font-size: 16px;
+        font-family: $font;
+        font-weight: 700;
+        margin-bottom: 30px;
+      }
+      &__subinfo{
+        font-size: 14px;
+        font-family: $font;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
