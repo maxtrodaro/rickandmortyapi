@@ -34,6 +34,6 @@
   "dependencies": {
     "concurrently": "^5.0.1",
     "node-gyp": "^5.0.7",
-    "node-sass": "^4.13.0"
+    "node-sass": "^7.0.0"
   }
 }
